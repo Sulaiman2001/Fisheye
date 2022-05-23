@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Confirmation</title>
+    <link rel="stylesheet" href="styles.css"/>
+
+
+</head>
+<body>
+    <div class="banner">
+        <div class="banner-image">
+            <img src="Images-1/party-icon.svg" height="60">
+            <h1>Let The Fun Begin!</h1>
+            <br>
+            <p1> Thanks for your orfer, we'll have it with you as soon as possible.<br>
+            Your order number is #10293838 and a confimation emal has been sent to the address provided.</p>
+            <br>
+            <h2>Order Even Faster in Future</h2>
+            <br>
+            <div class="accountBtn">
+                <h1>CREATE AN ACCOUNT</h1>
+            </div>
+        </div>
+    </div>
+    <div class="order">
+        <h1 style="font-size: medium;">Here's What You've Ordered</h1>
+        <div class="grid-container">
+            <div class="grid-item1">
+                <img class="order-product-image" src="Images-1/prod-TN-1.jpg">
+                <br>
+                <p1> 17ft x 12ft Jumpking Deluxe Rectangular Trampoline with Enclosure</p1>
+                <br><br>
+                <p1><em><s>£1069.00</s></em><b style="font-size: large;">       £949.00</b></p1>
+                <p3>QTY 1</p3> 
+                <br><br><br><br><br><br>
+                <hr>
+                <img class="order-product-image" src="Images-1/prod-TN-2.jpg">
+                <br>
+                <p1> 14ft Salta Black Round Comfort Edition Trampoline with Enclosure</p1>
+                <br><br>
+                <p1><b>£369.00</b></p1>
+                <p3>QTY 1</p3> 
+                <br><br><br>
+            </div>
+            <div class="grid-item2">
+                <b>Subtotal
+                <p3>£1318.00</p3>
+                <br><br>
+                Delivery
+                <p3>FREE</p3>
+                <br><br>
+                Next Working Day</b> (if ordered before 3pm)
+                <br><br><hr>
+                <b>Total
+                <p3 style="font-size: large;">£1318.00</p3>
+                </b>
+                <br><br><br><hr>
+                <div class="payment">
+                    <p>You paid using Mastercard<img src="Images-1/card-icon.svg" height="20px"> </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <center>
+        <div class="subscribe">
+            <p>Subscribe For The Latest Offers</p>
+        </div>
+        <button id="show-newsletter">Subscribe</button>
+    </center>
+    <div id="Newsletter" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <span class="close-btn">&times;
+                    <div class="p5">Close</div>
+                </span>
+                <h1>Newsletter Signup</h1>
+            </div>
+            <div class="modal-body">
+                <div class="form-element">
+                    <label for="email"><p>Your Name<span style="color: red">*</span></p></label>
+                    <input type="text" id="name">
+                </div>
+                <div class="form-element">
+                    <label for="email"><p>Your Telephone Number<span style="color: red">*</span></p></label>
+                    <input type="number" id="number">
+                </div>
+                <div class="form-element">
+                    <label for="email"><p>Your Email Address<span style="color: red">*</span></p></label>
+                    <input type="text" id="email">
+                </div>
+                <div class="form-element">
+                    <button>Signup</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="modal.js"></script>
+
+
